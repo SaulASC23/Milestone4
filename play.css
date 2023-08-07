@@ -1,0 +1,41 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+div {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    padding: .5%;
+    font-size: 20px;
+}
+button {
+    margin: 10px;
+}
+form {
+    text-align: center;
+}
+@media(max-width: 414px) {
+    nav {
+        margin-right: 15px;
+    }
+    form {
+        width: auto;
+        text-align: center; 
+        margin-right: 15px;
+    }
+    div {
+        margin-right: 15px;
+    }
+}
